@@ -24,4 +24,3 @@ prediction=clf.predict(example_measures)
 print(prediction)
 
 
-#just to check whether its changing in the git
