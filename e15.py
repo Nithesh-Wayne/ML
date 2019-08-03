@@ -36,7 +36,6 @@ def k_nearest_neighbors(data,predict,k=3):
     print(Counter(votes).most_common(1))
     vote_result=Counter(votes).most_common(1)[0][0]
 
-##    knnalgos
     return vote_result
 
 result= k_nearest_neighbors(dataset,new_features,k=3)
